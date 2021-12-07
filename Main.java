@@ -19,6 +19,6 @@ public class Main {
     }
 
     public static boolean passwordCheck(String s) {
-        return s.matches("(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[_]).{8,}");
+        return s.matches("(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=[_]*).{8,}");
     }
 }
